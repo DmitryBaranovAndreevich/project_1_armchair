@@ -1,0 +1,6 @@
+.contacts__wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 30px;
+  align-items: stretch;
+}

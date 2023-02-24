@@ -1,0 +1,10 @@
+.contacts__input {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: medium;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 30px;
+}

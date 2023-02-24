@@ -1,0 +1,8 @@
+.contacts__container {
+  max-width: 540px;
+  width: 100%;
+  background: #66c05d;
+  padding: 35px 40px;
+  color: #ffffff;
+  text-align: start;
+}

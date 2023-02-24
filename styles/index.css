@@ -16,6 +16,29 @@
 @import url("../componenets/headerDiv/headerDiv__button/headerDiv__button.css");
 @import url("../componenets//headerDiv/headerDiv__list/headerDiv__list.css");
 @import url("../componenets//headerDiv/headerDiv__elemList/headerDiv__elemList.css");
+@import url("../componenets/mainImage/mainImage.css");
+@import url("../componenets/mainImage/mainImage__title/mainImage__title.css");
+@import url("../componenets/mainImage/mainImage__description/mainImage__description.css");
+@import url("../componenets/mainImage/mainImage__link/mainImage__link.css");
+@import url("../componenets/goods/goods.css");
+@import url("../componenets/goods/goods__wrapper/goods__wrapper.css");
+@import url("../componenets/goods/goods__title/goods__title.css");
+@import url("../componenets/goods/goods__container/goods__container.css");
+@import url("../componenets/goods/goods__item/goods__item.css");
+@import url("../componenets/goods/goods__image/goods__image.css");
+@import url("../componenets/goods/goods__description/goods__description.css");
+@import url("../componenets/goods/goods__price/goods__price.css");
+@import url("../componenets/goods/goods__button/goods__button.css");
+@import url("../componenets/contacts/contacts.css");
+@import url("../componenets/contacts/contacts__wrapper/contacts__wrapper.css");
+@import url("../componenets/contacts/contacts__wrapper/contacts__wrapper_right.css");
+@import url("../componenets/contacts/contacts__wrapper/contacts__wrapper_left.css");
+@import url("../componenets/contacts/contacts__container/contacts__container.css");
+@import url("../componenets/contacts/contacts__description/contacts__description.css");
+@import url("../componenets/contacts/contacts__title/contacts__title.css");
+@import url("../componenets/contacts/contacts__input/contacts__input.css");
+@import url("../componenets/contacts/contacts__button/contacts__button.css");
+@import url("../componenets/contacts/contacts__letterImg/contacts__letterImg.css");
 body {
   text-align: center;
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -38,7 +61,6 @@ body {
 }
 
 #footerDiv {
-  position: absolute;
   bottom: 0;
   width: 100%;
 }

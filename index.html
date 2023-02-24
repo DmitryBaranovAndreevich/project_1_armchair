@@ -1,59 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="shortcut icon" type="image/png" href="./www.png" />
-    <title>Arnchair</title>
-  </head>
 
-  <body>
-    <div id="bodyDiv">
-      <div id="headerDiv">
-        <header>
-          <nav class="nav headerDiv__container">
-            <ul class="nav_links flex flex_position_center ul ul_view_noDot ul_position_noPadding">
-              <li class="nav_link">Доставка</li>
-              <li class="nav_link">Оплата</li>
-              <li class="nav_link">Отзывы</li>
-              <li class="nav_link">Вопрос - ответ</li>
-              <li class="nav_link">Контакты</li>
-            </ul>
-          </nav>
-          <div class="headerDiv__container flex flex_position_center">
-            <h3 class="logo flex flex_position_center">BEAUTY</h3>
-            <div class="flex flex_position_center">
-              <span class="headerDiv__span">8 (812) 123-45-67</span>
-              <button class="headerDiv__button">Обратный звонок</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="shortcut icon" type="image/png" href="./www.png" />
+  <title>Arnchair</title>
+</head>
+
+<body>
+  <div id="bodyDiv">
+    <div id="headerDiv">
+      <header>
+        <nav class="nav headerDiv__container">
+          <ul class="nav_links flex flex_position_center ul ul_view_noDot ul_position_noPadding">
+            <li class="nav_link">Доставка</li>
+            <li class="nav_link">Оплата</li>
+            <li class="nav_link">Отзывы</li>
+            <li class="nav_link">Вопрос - ответ</li>
+            <li class="nav_link">Контакты</li>
+          </ul>
+        </nav>
+        <div class="headerDiv__container flex flex_position_center">
+          <h1 class="logo flex flex_position_center">BEAUTY</h1>
+          <div class="flex flex_position_center">
+            <span class="headerDiv__span">8 (812) 123-45-67</span>
+            <button class="headerDiv__button">Обратный звонок</button>
+          </div>
+        </div>
+        <div class="headerDiv__container">
+          <ul class="headerDiv__list flex flex_position_center ul ul_view_noDot ul_position_noPadding">
+            <li class="headerDiv__elemList">Парикмахерская</li>
+            <li class="headerDiv__elemList">Барбершоп</li>
+            <li class="headerDiv__elemList">Маникюр</li>
+            <li class="headerDiv__elemList">Педикюр</li>
+            <li class="headerDiv__elemList">Массаж</li>
+            <li class="headerDiv__elemList">Мебель</li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <div id="mainDiv">
+      <main>
+        <div class="mainImage flex flex_direction_column">
+          <h2 class="mainImage__title">Супер кресло</h2>
+          <p class="mainImage__description">Текст акции всегда отражает суть, а не просто
+            болтовню, поэтому внимательнее</p>
+          <a href="#" class="mainImage__link">Подробнее</a>
+        </div>
+        <div class="goods">
+          <div class="goods__wrapper">
+            <h3 class="goods__title">Специальные предложения</h3>
+            <div class="goods__container flex flex_position_center">
+              <div class="goods__item">
+                <img src="./images/item.jpg" alt="Фото товара" class="goods__image">
+                <p class="goods__description">Парикмахерское кресло «Норм» гидравлическое</p>
+                <p class="goods__price">9 900 ₽</p>
+                <button class="goods__button">Купить</button>
+              </div>
+              <div class="goods__item">
+                <img src="./images/item.jpg" alt="Фото товара" class="goods__image">
+                <p class="goods__description">Парикмахерское кресло «Норм» гидравлическое</p>
+                <p class="goods__price">9 900 ₽</p>
+                <button class="goods__button">Купить</button>
+              </div>
+              <div class="goods__item">
+                <img src="./images/item.jpg" alt="Фото товара" class="goods__image">
+                <p class="goods__description">Парикмахерское кресло «Норм» гидравлическое</p>
+                <p class="goods__price">9 900 ₽</p>
+                <button class="goods__button">Купить</button>
+              </div>
+              <div class="goods__item">
+                <img src="./images/item.jpg" alt="Фото товара" class="goods__image">
+                <p class="goods__description">Парикмахерское кресло «Норм» гидравлическое</p>
+                <p class="goods__price">9 900 ₽</p>
+                <button class="goods__button">Купить</button>
+              </div>
             </div>
           </div>
-          <div class="headerDiv__container">
-            <ul class="headerDiv__list flex flex_position_center ul ul_view_noDot ul_position_noPadding">
-              <li class="headerDiv__elemList">Парикмахерская</li>
-              <li class="headerDiv__elemList">Барбершоп</li>
-              <li class="headerDiv__elemList">Маникюр</li>
-              <li class="headerDiv__elemList">Педикюр</li>
-              <li class="headerDiv__elemList">Массаж</li>
-              <li class="headerDiv__elemList">Мебель</li>
-            </ul>
+        </div>
+        <div class="contacts">
+          <div class="contacts__wrapper flex flex_position_center">
+            <div class="contacts__container flex flex_position_spaceBetween">
+              <div class="contacts__wrapperContainer contacts__wrapper_left">
+                <p class="contacts__title">Получайте бонусы и подарки</p>
+                <p class="contacts__description">Каждый месяц разыгрываем
+                  10 000 рублей для наших клиентов</p>
+                <input type="text" class="contacts__input" placeholder="Введите e-mail">
+              </div>
+              <img src="./images/envelope.svg" alt="e-mail" class="contacts__letterImg">
+            </div>
+            <div class="contacts__container">
+              <div class="contacts__wrapperContainer contacts__wrapper_right">
+                <p class="contacts__title">Заходите к нам</p>
+                <p class="contacts__description">Более 300 магазинов
+                  по всей России</p>
+                <button class="contacts__button">Карта магазинов</button>
+              </div>
+            </div>
           </div>
-        </header>
-      </div>
-
-      <div id="mainDiv">
-        <main>
-          <div>
-            <p>This is paragraph element of document</p>
-          </div>
-        </main>
-      </div>
-
-      <div id="footerDiv">
-        <footer id="pageFooter">This is footer element of document</footer>
-      </div>
+        </div>
+      </main>
     </div>
 
-    <script src="scripts/index.js"></script>
-  </body>
+    <div id="footerDiv">
+      <footer class="footerDiv__footer flex flex_position_spaceBetween">
+        <ul class="footerDiv__links ul ul_view_noDot ul_position_noPadding">
+          <li class="footerDiv__linkWrapper"><a href="#" class="footerDiv__link"></a></li>
+          <li class="footerDiv__linkWrapper"><a href="#" class="footerDiv__link"></a></li>
+          <li class="footerDiv__linkWrapper"><a href="#" class="footerDiv__link"></a></li>
+          <li class="footerDiv__linkWrapper"><a href="#" class="footerDiv__link"></a></li>
+        </ul>
+        <p class="footerDiv__adresse">198555, Невский пр. 140, офис 140</p>
+        <div class="footerDiv__container">
+          <p class="footerDiv__adresse">8 (812) 123-45-67</p>
+          <button class="footerDiv__dutton">Обратный звонок</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
 </html>

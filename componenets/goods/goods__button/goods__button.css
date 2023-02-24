@@ -1,0 +1,14 @@
+.goods__button {
+  background: #66C05D;
+  color: #FFFFFF;
+  border: none;
+  padding: 9px 40px;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.goods__button:hover {
+  opacity: .6;
+}

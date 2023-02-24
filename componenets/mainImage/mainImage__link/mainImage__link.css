@@ -1,0 +1,13 @@
+.mainImage__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  padding: 12px 46px;
+  border-radius: 40px;
+  transition: .2s;
+  font-weight: medium;
+}
+
+.mainImage__link:hover {
+  opacity: .6;
+}

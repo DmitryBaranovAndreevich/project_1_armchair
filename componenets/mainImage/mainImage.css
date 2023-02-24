@@ -1,0 +1,9 @@
+.mainImage {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 192px 405px;
+  background: url("../../images/armchair.jpg") no-repeat center/cover;
+  color: #FFFFFF;
+  align-items: flex-start;
+  gap: 50px;
+}
