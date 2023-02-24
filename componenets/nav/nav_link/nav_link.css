@@ -1,0 +1,8 @@
+.nav_link {
+  cursor: pointer;
+  transition: .2s;
+}
+
+.nav_link:hover {
+  opacity: .6;
+}

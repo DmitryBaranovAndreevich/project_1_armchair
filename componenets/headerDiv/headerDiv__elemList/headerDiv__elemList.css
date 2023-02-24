@@ -1,0 +1,8 @@
+.headerDiv__elemList {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.headerDiv__elemList:hover {
+  opacity: 0.6;
+}

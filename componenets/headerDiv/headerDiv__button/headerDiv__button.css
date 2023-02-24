@@ -1,0 +1,12 @@
+.headerDiv__button {
+  background-color: #FFF;
+  border: 2px solid #66C05D;
+  padding: 12px 27px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.headerDiv__button:hover {
+  opacity: .6;
+}
