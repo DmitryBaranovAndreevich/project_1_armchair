@@ -3,3 +3,9 @@
   padding: 12px;
   gap: 30px
 }
+
+@media screen and (max-width: 450px){
+  .nav_links {
+    flex-wrap: wrap;
+  }
+}

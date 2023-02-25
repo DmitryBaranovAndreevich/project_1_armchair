@@ -4,3 +4,10 @@
   gap: 30px;
   align-items: stretch;
 }
+
+@media screen and (max-width: 900px){
+  .contacts__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}

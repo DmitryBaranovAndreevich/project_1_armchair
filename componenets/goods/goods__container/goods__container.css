@@ -2,3 +2,9 @@
   margin-top: 38px;
   gap: 30px;
 }
+
+@media screen and (max-width: 900px){
+  .goods__container {
+    flex-direction: column;
+  }
+}

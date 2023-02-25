@@ -1,0 +1,18 @@
+.footerDiv__commentContainer {
+  background: #efefef;
+  padding: 25px 0;
+  gap: 345px;
+}
+
+@media screen and (max-width: 750px) {
+  .footerDiv__commentContainer {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footerDiv__commentContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

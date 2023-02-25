@@ -1,0 +1,11 @@
+.headerDiv__callBack {
+  gap: 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .headerDiv__callBack {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

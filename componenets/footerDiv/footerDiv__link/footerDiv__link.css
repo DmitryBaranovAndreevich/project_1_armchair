@@ -1,0 +1,11 @@
+.footerDiv__link {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #66C05D;
+  border-radius: 50%;
+  transition: .2s;
+}
+
+.footerDiv__link:hover {
+  opacity: .6;
+}

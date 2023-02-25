@@ -2,3 +2,22 @@
   width: 100%;
   gap: 515px;
 }
+
+@media screen and (max-width: 1200px) {
+  .headerDiv__container {
+    gap: 250px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .headerDiv__container {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .headerDiv__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
